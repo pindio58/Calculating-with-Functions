@@ -1,84 +1,15 @@
-def zero (x=0):
-    if not x:
-        return 0
-    else:
-        return eval ('0' + x)
+def zero (x=0): return 0 if not x else eval ('0' + x)
+def one (x=0): return 1 if not x else eval ('1' + x)
+def two (x=0): return 2 if not x else eval ('2' + x)
+def three (x=0): return 3 if not x else eval ('3' + x)
+def four (x=0): return 4 if not x else eval ('4' + x)
+def five (x=0): return 5 if not x else eval ('5' + x)
+def six (x=0): return 6 if not x else eval ('6' + x)
+def seven (x=0): return 7 if not x else eval ('7' + x)
+def eight (x=0): return 8 if not x else eval ('8' + x)
+def nine (x=0): return 9 if not x else eval ('9' + x)
 
-
-def one (x=0):
-    if not x:
-        return 1
-    else:
-        return eval ('1' + x)
-
-
-def two (x=0):
-    if not x:
-        return 2
-    else:
-        return eval ('2' + x)
-
-
-def three (x=0):
-    if not x:
-        return 3
-    else:
-        return eval ('3' + x)
-
-
-def four (x=0):
-    if not x:
-        return 4
-    else:
-        return eval ('4' + x)
-
-
-def five (x=0):
-    if not x:
-        return 5
-    else:
-        return eval ('5' + x)
-
-
-def six (x=0):
-    if not x:
-        return 6
-    else:
-        return eval ('6' + x)
-
-
-def seven (x=0):
-    if not x:
-        return 7
-    else:
-        return eval ('7' + x)
-
-
-def eight (x=0):
-    if not x:
-        return 8
-    else:
-        return eval ('8' + x)
-
-
-def nine (x=0):
-    if not x:
-        return 9
-    else:
-        return eval ('9' + x)
-
-
-def plus (x):
-    return '+' + str (x)
-
-
-def minus (x=0):
-    return '-' + str (x)
-
-
-def times (x=0):
-    return '*' + str (x)
-
-
-def divided_by (x=0):
-    return '//' + str (x)
+def plus (x): return '+' + str (x)
+def minus (x=0): return '-' + str (x)
+def times (x=0): return '*' + str (x)
+def divided_by (x=0): return '//' + str (x)
